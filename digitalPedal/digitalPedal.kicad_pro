@@ -403,7 +403,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "guitarDistortion.kicad_pro",
+    "filename": "digitalPedal.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -430,7 +430,10 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/VBias": "1.65VDC",
+      "/VCC": "3.3VDC"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
